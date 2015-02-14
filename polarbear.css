@@ -1,4 +1,69 @@
+/*The DropDown Menu Starts here!!*/
+#nav {
+    position:relative;
+    top: 10px;
+    background-color: #4183D7;
+    font-size: 30px;
 
+}
+#navwrapper {
+    margin: 0 auto;
+    text-align: left;
+    margin-right: 1px;
+    color: yellow;
+    padding: 0 auto;
+    opacity: .2;
+
+}
+#nav ul {
+    list-style-type: none;
+    padding:0px;
+    margin: 0;
+    position: relative;
+}
+#nav ul li {
+    display:inline-block;
+}
+#nav ul li:hover{
+    background-color: #4183D7;
+    
+
+}                   /* menu text color*/
+#nav ul li a{
+    color:black;
+    display: block;
+    padding:20px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+#nav ul li:hover ul {
+    display: block;
+    }
+#nav ul li img {
+    vertical-align: middle;
+    padding-left: 5px;
+}           /*background of DropDown Menu*/
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #4183D7;
+    border:5px solid #4183D7;
+    border-top: 0;
+    margin-left:-5px;
+    min-width: 200px;
+}
+#nav ul ul li{
+
+}
+#nav ul ul li a{
+    color: yellow;
+}
+#nav ul ul li a:hover{
+    color: green;
+    }              /* The end of the DropDown Mene*/
 .wrapper{
 
     width: 900px;
@@ -53,11 +118,13 @@
 
 }
 
-.media { width: 50px;
-    height: 300px;
-    position: fixed;
-    bottom: 70px;
-    left: 50px;
+.media { 
+    margin:0;
+    padding:0;
+    float: left;
+    display:block;
+    clear: both;
+    left: 5px;
     background color: #2C3E50;
 
 }
