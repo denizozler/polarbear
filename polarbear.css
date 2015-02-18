@@ -1,0 +1,139 @@
+/*The DropDown Menu Starts here!!*/
+#nav {
+    position:relative;
+    top: 10px;
+    background-color: #4183D7;
+    font-size: 30px;
+
+}
+#navwrapper {
+    margin: 0 auto;
+    text-align: left;
+    margin-right: 1px;
+    color: yellow;
+    padding: 0 auto;
+    opacity: .2;
+
+}
+#nav ul {
+    list-style-type: none;
+    padding:0px;
+    margin: 0;
+    position: relative;
+}
+#nav ul li {
+    display:inline-block;
+}
+#nav ul li:hover{
+    background-color: #4183D7;
+    
+
+}                   /* menu text color*/
+#nav ul li a{
+    color:black;
+    display: block;
+    padding:20px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+#nav ul li:hover ul {
+    display: block;
+    }
+#nav ul li img {
+    vertical-align: middle;
+    padding-left: 5px;
+}           /*background of DropDown Menu*/
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #4183D7;
+    border:5px solid #4183D7;
+    border-top: 0;
+    margin-left:-5px;
+    min-width: 200px;
+}
+#nav ul ul li{
+
+}
+#nav ul ul li a{
+    color: yellow;
+}
+#nav ul ul li a:hover{
+    color: green;
+    }              
+
+//////////////////* The end of the DropDown Mene*//////////////////
+.wrapper{
+    width: 900px;
+    margin:0 auto;
+    height: 1000px;
+}
+
+.header {
+    margin: 0;
+    padding: 5px;
+    border: 1px ;
+    height: 150px;
+    width: 100%;
+    background-color: #4183D7;
+    text-align: center;
+    color: white;
+    font: garamond;
+    font-size: 75px;
+    font-size: italic, bold;
+}
+.menu {
+    background-color: #22A7F0;
+    text-align: left;
+    color: white;
+    font: garamond;
+    font-size: 20px;
+    font-size: italic, bold;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.background { text-align: justify;
+}
+
+.footer {
+    margin: 0;
+    padding: 5px;
+    border: 1px ;
+    height: 100px;
+    width: 100%;
+    background-color: #4183D7;
+    text-align: left;
+    color: white;
+    font: garamond;
+    font-size: 20px;
+    font-size: italic, bold;
+
+}
+.content{
+    height: auto;
+    width: 100%;
+    background-color: yellow;
+    text-align: left;
+    line-height: 20px;
+    text-align: justify;
+    padding: 10px;
+
+}
+.media { 
+    margin:0;
+    padding:0;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    clear: both;
+    width: 100px;
+    height: 300px;
+}
+
+
